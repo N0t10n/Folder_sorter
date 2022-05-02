@@ -40,5 +40,5 @@ def file_sorter(path):
 
 if __name__=="__main__":
     # Folder's path
-    path = '../../../Downloads'
+    path = input('Paste the desired path:')
     file_sorter(path)
